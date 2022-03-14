@@ -3,12 +3,10 @@ const inquirer = require('inquirer');
 const mysql = require('mysql2');
 require('console.table');
 
-var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    database: 'employeeDb',
-    password: 'root'
-})
+connection.connect((error) => {
+    if (error) throw error;
+    askUser();
+  });
 
 const promptMenu = () => {
     return inquirer.prompt([
