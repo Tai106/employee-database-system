@@ -17,7 +17,11 @@ A command-line application to manage a company's employee database, using Node.j
 * Install mysql
 * In the command line run node server.js 
 
+# Screenshots
+
+  
 # Video Walkthrough 
+* https://drive.google.com/file/d/1kysJ84S4e19e-dB3WqMB_08lItigM_Ke/view
 
 
 
